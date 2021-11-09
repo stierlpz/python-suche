@@ -12,6 +12,7 @@ if gw=="g":
     url='https://www.google.com/search?q='
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-------------')
+    print(url+s)
 if gw=="G":
     print(f'Suche auf Google----------------')
     s=input(f'Was suchst du?:               ')
@@ -20,6 +21,7 @@ if gw=="G":
     url='https://www.google.com/search?q='
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-------------')
+    print(url+s)
 print(f'------------------------------------')    
 
 if gw=="w":
@@ -30,6 +32,7 @@ if gw=="w":
     url='https://de.wikipedia.org/wiki/'
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-------------')
+    print(url+s)
 if gw=="W":
     print(f'Suche auf Wikipedia-------------')
     s=input(f'Was suchst du?:               ')
@@ -38,5 +41,9 @@ if gw=="W":
     url='https://de.wikipedia.org/wiki/'
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-------------')
+    print(url+s)
 print(f'------------------------------------')
+
+
+
 
