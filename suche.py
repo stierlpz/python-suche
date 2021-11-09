@@ -53,7 +53,7 @@ if gw=="c":
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-----------------------------------------')
     print(url+s)
-if gw=="W":
+if gw=="C":
     print(f'Suche auf Wikimedia Commons--------------------------------')
     s=input(f'Was suchst du?:   ')
     print(f'Suche nach ',s,'-------------------------------------------')
