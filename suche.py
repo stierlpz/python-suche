@@ -1,12 +1,12 @@
 import time
 import webbrowser
 print(f'----------------------------------------------------------------')
+s=input(f'Was suchst du?:   ')
 print(f'Suche auf:                                                      ')
 gw=input(f'g für Google   w für Wikipedia   c für Wikimedia Commons :   ')
 print(f'----------------------------------------------------------------')
 if gw=="g":
     print(f'Suche auf Google--------------------------------------------')
-    s=input(f'Was suchst du?:   ')
     print(f'Suche nach ',s,'--------------------------------------------')
     time.sleep(5)
     url='https://www.google.com/search?q='
@@ -26,7 +26,6 @@ print(f'----------------------------------------------------------------')
 
 if gw=="w":
     print(f'Suche auf Wikipedia-----------------------------------------')
-    s=input(f'Was suchst du?:    ')
     print(f'Suche nach ',s,'--------------------------------------------')
     time.sleep(5)
     url='https://de.wikipedia.org/wiki/'
@@ -35,7 +34,6 @@ if gw=="w":
     print(url+s)
 if gw=="W":
     print(f'Suche auf Wikipedia----------------------------------------')
-    s=input(f'Was suchst du?:   ')
     print(f'Suche nach ',s,'-------------------------------------------')
     time.sleep(5)
     url='https://de.wikipedia.org/wiki/'
@@ -46,7 +44,6 @@ if gw=="W":
 
 if gw=="c":
     print(f'Suche auf Wikimedia Commons---------------------------------')
-    s=input(f'Was suchst du?:   ')
     print(f'Suche nach ',s,'--------------------------------------------')
     time.sleep(5)
     url='https://commons.wikimedia.org/w/index.php?search='
@@ -55,7 +52,6 @@ if gw=="c":
     print(url+s)
 if gw=="C":
     print(f'Suche auf Wikimedia Commons--------------------------------')
-    s=input(f'Was suchst du?:   ')
     print(f'Suche nach ',s,'-------------------------------------------')
     time.sleep(5)
     url='https://commons.wikimedia.org/w/index.php?search='
