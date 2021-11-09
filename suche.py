@@ -1,4 +1,4 @@
-
+import time
 import webbrowser
 print(f'------------------------------------')
 print(f'Suche auf:                          ')
@@ -8,13 +8,15 @@ if gw=="g":
     print(f'Suche auf Google----------------')
     s=input(f'Was suchst du?:               ')
     print(f'Suche nach ',s,'----------------')
+    time.sleep(5)
     url='https://www.google.com/search?q='
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-------------')
 if gw=="G":
     print(f'Suche auf Google----------------')
     s=input(f'Was suchst du?:               ')
-    print(f'Öffne Google--------------------')
+    print(f'Suche nach ',s,'----------------')
+    time.sleep(5)
     url='https://www.google.com/search?q='
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-------------')
@@ -24,14 +26,17 @@ if gw=="w":
     print(f'Suche auf Wikipedia-------------')
     s=input(f'Was suchst du?:               ')
     print(f'Suche nach ',s,'----------------')
+    time.sleep(5)
     url='https://de.wikipedia.org/wiki/'
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-------------')
 if gw=="W":
     print(f'Suche auf Wikipedia-------------')
     s=input(f'Was suchst du?:               ')
-    print(f'Öffne Wikipedia-----------------')
+    print(f'Suche nach ',s,'----------------')
+    time.sleep(5)
     url='https://de.wikipedia.org/wiki/'
     webbrowser.open(url+s)
     print(f'Suche abgeschlossen-------------')
 print(f'------------------------------------')
+
