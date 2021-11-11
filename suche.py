@@ -3,7 +3,7 @@ import webbrowser
 print(f'---------------------------------------------------------------------------------------')  
 print(f'Suche auf: ')
 print(f'b für Google Bilder')
-print(f'c für Wikmeidia Comans')
+print(f'c für Wikmeidia Commons')
 print(f'g für Google')
 print(f'm für Goolge Maps')
 print(f's für Google Shopping')
@@ -225,8 +225,6 @@ if gw=="S":
     print(f'Suche abgeschlossen')     
     print(url+s+url2)
     print(f'-----------------------------------------------------------------------------------')      
-
-
 
 
 
