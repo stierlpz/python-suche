@@ -9,7 +9,7 @@ print(f'm für Goolge Maps')
 print(f's für Google Shopping')
 print(f't für Google Taschenrechner')
 print(f'y für Youtube')
-gw=input(f'Wo suchst Du? :   ')
+gw=input(f'Wo suchst du? :   ')
 print(f'---------------------------------------------------------------------------------------')
 
 if gw=="g":
